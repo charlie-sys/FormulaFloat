@@ -1,0 +1,6 @@
+<Window x:Class="FormulaFloat.FloatingWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="FormulaFloat 悬浮入口" Width="58" Height="58" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent" ShowInTaskbar="False" Topmost="True">
+ <Border Margin="3" Background="#7160DB" CornerRadius="17" BorderBrush="#A89BEF" BorderThickness="1" MouseLeftButtonDown="PointerDown" MouseMove="PointerMove" MouseLeftButtonUp="PointerUp" Cursor="Hand" ToolTip="点击截取公式 · 拖拽移动 · 右键打开菜单">
+  <Border.ContextMenu><ContextMenu><MenuItem Header="截取公式    Ctrl+Alt+M" Click="CaptureClick"/><MenuItem Header="打开结果面板" Click="OpenClick"/><MenuItem Header="模型设置" Click="SettingsClick"/><Separator/><MenuItem Header="退出" Click="ExitClick"/></ContextMenu></Border.ContextMenu>
+  <TextBlock Text="ƒ" FontFamily="Cambria" FontSize="37" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-3,0,0"/>
+ </Border>
+</Window>

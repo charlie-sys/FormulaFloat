@@ -1,0 +1,6 @@
+.tools/
+**/bin/
+**/obj/
+release/
+*.user
+artifacts/
