@@ -2,6 +2,10 @@
 
 面向 Windows 10 / 11 的原生 WPF 桌面原型。截图 → 视觉模型 → LaTeX → 自然语言调整，关闭面板后仍保留悬浮入口。没有浏览器运行时和本地模型依赖，无第三方 NuGet 包。
 
+## 下载
+
+在 [GitHub Releases v0.1.0](https://github.com/charlie-sys/FormulaFloat/releases/tag/v0.1.0) 下载 `FormulaFloat-win-x64.zip`，解压后运行 `FormulaFloat.exe`。这是免安装便携版，需要 Windows 10/11 x64 和 .NET 8 Desktop Runtime x64。也可单独下载 EXE；`SHA256SUMS.txt` 提供文件校验值。
+
 ## 使用
 
 1. 运行 `release/FormulaFloat/FormulaFloat.exe`。轻量版需要 **.NET 8 Desktop Runtime x64**；自包含构建可在未安装运行时的机器上使用。
